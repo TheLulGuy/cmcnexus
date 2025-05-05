@@ -1,6 +1,5 @@
 import { Button } from "./ui/button";
 import { buttonVariants } from "./ui/button";
-import { HeroCards } from "./HeroCards";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { Slide } from "react-awesome-reveal";
 import landing_image from "../assets/landing_image_without_bg.png"

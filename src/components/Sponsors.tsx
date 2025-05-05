@@ -1,4 +1,3 @@
-import { Radar } from "lucide-react";
 import { Slide } from "react-awesome-reveal";
 import future_u_logo from "../assets/sponsorsLogos/Blue Yellow Elegant Professional University Logo_20250426_112827_0000.png";
 import fashion_logo from "../assets/sponsorsLogos/Black_Elegant_Woman_Fashion_Brand.png"
