@@ -2,9 +2,12 @@ import { Button } from "./ui/button";
 import { buttonVariants } from "./ui/button";
 import { HeroCards } from "./HeroCards";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
-
+import { Slide } from "react-awesome-reveal";
+import landing_image from "../assets/landing_image_without_bg.png"
 export const Hero = () => {
   return (
+    <Slide direction="left" triggerOnce={true}>
+
     <section className="container grid lg:grid-cols-2 place-items-center py-20 md:py-32 gap-10">
       <div className="text-center lg:text-start space-y-6">
         <main className="text-5xl md:text-6xl font-bold">
@@ -38,7 +41,7 @@ export const Hero = () => {
             className={`w-full md:w-1/3 ${buttonVariants({
               variant: "outline",
             })}`}
-          >
+            >
             Github Repository
             <GitHubLogoIcon className="ml-2 w-5 h-5" />
           </a>
@@ -47,11 +50,19 @@ export const Hero = () => {
 
       {/* Hero cards sections */}
       <div className="z-10">
-        <HeroCards />
+        {/*//! Insert image here */}
+        {/* <HeroCards /> */}
+        <img
+            className="object-contain rounded-lg"
+            // src="https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            src={landing_image}
+            alt=""
+/>
       </div>
 
       {/* Shadow effect */}
       <div className="shadow"></div>
     </section>
+    </Slide>
   );
 };

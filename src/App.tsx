@@ -14,23 +14,29 @@ import { Sponsors } from "./components/Sponsors";
 import { Team } from "./components/Team";
 import { Testimonials } from "./components/Testimonials";
 import "./App.css";
+import { HeroCards } from "./components/HeroCards";
+import { Statistics } from "./components/Statistics";
+import ContactForm from "./components/ContactForm";
 
 function App() {
   return (
     <>
       <Navbar />
       <Hero />
-      <Sponsors />
       <About />
-      <HowItWorks />
-      <Features />
+      <Sponsors />
+      {/* <HowItWorks /> */}
+      {/* <Features /> */}
       <Services />
       <Cta />
+      {/* <ContactForm /> */}
       <Testimonials />
       <Team />
       <Pricing />
-      <Newsletter />
-      <FAQ />
+      
+      {/* <Newsletter /> */}
+      {/* <FAQ /> */}
+
       <Footer />
       <ScrollToTop />
     </>

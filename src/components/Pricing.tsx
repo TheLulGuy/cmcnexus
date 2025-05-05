@@ -26,39 +26,39 @@ interface PricingProps {
 
 const pricingList: PricingProps[] = [
   {
-    title: "Free",
+    title: "Basic",
     popular: 0,
-    price: 0,
+    price: 2999,
     description:
-      "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
+      "Basic service plan, for startups and small teams looking for a basic solution.",
     buttonText: "Get Started",
     benefitList: [
-      "1 Team member",
-      "2 GB Storage",
-      "Upto 4 pages",
-      "Community support",
-      "lorem ipsum dolor",
+      "Hosting: ₹XXX/Month",
+      "3 Email Account",
+      "Order sys: ₹3500",
+      "Multi Language",
+      "-",
     ],
   },
   {
-    title: "Premium",
+    title: "Standard",
     popular: 1,
-    price: 5,
+    price: 7999,
     description:
       "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
     buttonText: "Start Free Trial",
     benefitList: [
-      "4 Team member",
-      "4 GB Storage",
-      "Upto 6 pages",
+      "Hosting: ₹0",
+      "3 Email Accounts",
+      "Order Sys: ₹2500",
       "Priority support",
-      "lorem ipsum dolor",
+      "Multiple Languages",
     ],
   },
   {
-    title: "Enterprise",
+    title: "Premium",
     popular: 0,
-    price: 40,
+    price: 12999,
     description:
       "Lorem ipsum dolor sit, amet ipsum consectetur adipisicing elit.",
     buttonText: "Contact US",
@@ -113,7 +113,7 @@ export const Pricing = () => {
                 ) : null}
               </CardTitle>
               <div>
-                <span className="text-3xl font-bold">${pricing.price}</span>
+                <span className="text-3xl font-bold">₹{pricing.price}</span>
                 <span className="text-muted-foreground"> /month</span>
               </div>
 

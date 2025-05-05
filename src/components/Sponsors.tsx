@@ -1,39 +1,51 @@
 import { Radar } from "lucide-react";
+import { Slide } from "react-awesome-reveal";
+import future_u_logo from "../assets/sponsorsLogos/Blue Yellow Elegant Professional University Logo_20250426_112827_0000.png";
+import fashion_logo from "../assets/sponsorsLogos/Black_Elegant_Woman_Fashion_Brand.png"
+import chicken_logo from "../assets/sponsorsLogos/Black Red Rooster Coffee Bar.png"
+import green_threads_logo from "../assets/sponsorsLogos/Green and White Modern Simple Borcelle Organic.png"
+import sponsors_combination from "../assets/sponsorsLogos/Sponsors_combination.png"
 
 interface SponsorProps {
   icon: JSX.Element;
   name: string;
 }
 
-const sponsors: SponsorProps[] = [
-  {
-    icon: <Radar size={34} />,
-    name: "Sponsor 1",
-  },
-  {
-    icon: <Radar size={34} />,
-    name: "Sponsor 2",
-  },
-  {
-    icon: <Radar size={34} />,
-    name: "Sponsor 3",
-  },
-  {
-    icon: <Radar size={34} />,
-    name: "Sponsor 4",
-  },
-  {
-    icon: <Radar size={34} />,
-    name: "Sponsor 5",
-  },
-  {
-    icon: <Radar size={34} />,
-    name: "Sponsor 6",
-  },
-];
+
+const imageSources = [
+  future_u_logo,
+  fashion_logo,
+  chicken_logo,
+  green_threads_logo,
+  "",
+  sponsors_combination,
+
+]
+
+const sponsorNames = [
+  " ",
+  " ",
+  " ",
+  " ",
+  " ",
+  " ",
+]
+
+const sponsors: SponsorProps[] = imageSources.map((src, index) => ({
+  icon: (
+    <img 
+      src={src}
+      alt={""}
+      className="w-[220px] object-contain rounded-lg" // Consistent for all
+    />
+  ),
+  name: sponsorNames[index] || `Sponsor ${index + 1}` // Fallback
+}));
 
 export const Sponsors = () => {
   return (
+    <Slide triggerOnce={true} direction="right">
+
     <section
       id="sponsors"
       className="container pt-24 sm:py-32"
@@ -54,5 +66,6 @@ export const Sponsors = () => {
         ))}
       </div>
     </section>
+    </Slide>
   );
 };
