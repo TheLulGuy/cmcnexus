@@ -31,6 +31,7 @@ function App() {
       {/* <FAQ /> */}
 
       <Cta />
+      <SpeedInsights />
       <Footer />
       <ScrollToTop />
     </>
