@@ -21,7 +21,6 @@ function App() {
       {/* <HowItWorks /> */}
       {/* <Features /> */}
       <Services />
-      <Cta />
       {/* <ContactForm /> */}
       <Testimonials />
       <Team />
@@ -31,6 +30,7 @@ function App() {
       {/* <FAQ /> */}
 
       <Footer />
+      <Cta />
       <ScrollToTop />
     </>
   );
