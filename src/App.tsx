@@ -29,8 +29,8 @@ function App() {
       {/* <Newsletter /> */}
       {/* <FAQ /> */}
 
-      <Footer />
       <Cta />
+      <Footer />
       <ScrollToTop />
     </>
   );
