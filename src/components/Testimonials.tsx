@@ -16,49 +16,42 @@ interface TestimonialProps {
 
 const testimonials: TestimonialProps[] = [
   {
-    image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe",
-    comment: "This landing page is awesome!",
+    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200",
+    name: "Sarah Johnson",
+    userName: "@sarah_marketing",
+    comment: "CMC Nexus transformed our online presence! Our website traffic increased by 300% within just two months of working with them.",
   },
   {
-    image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe1",
-    comment:
-      "Lorem ipsum dolor sit amet,empor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
-  },
-
-  {
-    image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe2",
-    comment:
-      "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.",
+    image: "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?w=200",
+    name: "Michael Chen",
+    userName: "@mike_entrepreneur",
+    comment: "The social media management team is phenomenal. They understand our brand voice perfectly and have helped us grow our Instagram following by 5x.",
   },
   {
-    image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe3",
-    comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200",
+    name: "Priya Patel",
+    userName: "@priya_designs",
+    comment: "As a small business owner, I was skeptical about digital marketing, but CMC Nexus delivered results beyond my expectations. Worth every penny!",
   },
   {
-    image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe4",
-    comment:
-      "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud.",
+    image: "https://images.unsplash.com/photo-1566492031773-4f4e44671857?w=200",
+    name: "David Wilson",
+    userName: "@david_ceo",
+    comment: "Their website development team created a stunning, high-converting site for our SaaS product in record time. Highly recommend their services!",
   },
   {
-    image: "https://github.com/shadcn.png",
-    name: "John Doe React",
-    userName: "@john_Doe5",
-    comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200",
+    name: "Emily Rodriguez",
+    userName: "@emily_consultant",
+    comment: "The YouTube marketing strategy they implemented helped us reach 100k subscribers faster than we ever imagined possible. Truly experts in their field!",
   },
+  {
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200",
+    name: "James Kim",
+    userName: "@james_startups",
+    comment: "We've tried several marketing agencies, but none compare to CMC Nexus. Their data-driven approach and creative execution are unmatched.",
+  }
 ];
-
 export const Testimonials = () => {
   return (
     <section
@@ -75,8 +68,7 @@ export const Testimonials = () => {
       </h2>
 
       <p className="text-xl text-muted-foreground pt-4 pb-8">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non unde error
-        facere hic reiciendis illo
+        
       </p>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-4 sm:block columns-2  lg:columns-3 lg:gap-6 mx-auto space-y-4 lg:space-y-6">
