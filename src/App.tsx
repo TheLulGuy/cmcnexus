@@ -9,6 +9,7 @@ import { Services } from "./components/Services";
 import { Sponsors } from "./components/Sponsors";
 import { Team } from "./components/Team";
 import { Testimonials } from "./components/Testimonials";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import "./App.css";
 
 function App() {
