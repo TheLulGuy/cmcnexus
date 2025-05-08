@@ -11,22 +11,22 @@ export const Statistics = () => {
   const stats: statsProps[] = [
     {
       quantity: 2700,
-      description: "Users",
+      description: "Products",
       showPlus: true
     },
     {
       quantity: 1800,
-      description: "Subscribers",
+      description: "Clients",
       showPlus: true
     },
     {
       quantity: 112,
-      description: "Downloads",
+      description: "Partners",
       showPlus: false
     },
     {
-      quantity: 4,
-      description: "Products",
+      quantity: 3,
+      description: "Services",
       showPlus: false
     },
   ];
