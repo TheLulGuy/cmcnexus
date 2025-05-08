@@ -71,7 +71,7 @@ import { buttonVariants } from "./ui/button";
 // import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { Slide } from "react-awesome-reveal";
 import landing_image from "../assets/landing_image_without_bg.png";
-
+import { LandingPageIcon } from "./Icons";
 export const Hero = () => {
   return (
     <Slide direction="left" triggerOnce={true}>
@@ -111,13 +111,13 @@ export const Hero = () => {
         </div>
 
         <div className="z-10">
-          <img
+          {/* <img
             className="object-contain rounded-lg"
             src={landing_image}
             alt="CMC Nexus Business Solutions"
-          />
+          /> */}
         </div>
-
+            {/* <LandingPageIcon /> */}
         <div className="shadow"></div>
       </section>
     </Slide>

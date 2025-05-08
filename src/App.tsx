@@ -23,7 +23,7 @@ function App() {
       <Services />
       {/* <ContactForm /> */}
       <Testimonials />
-      <Team />
+      {/* <Team /> */}
       <Pricing />
       
       {/* <Newsletter /> */}
