@@ -11,7 +11,7 @@ export const Statistics = () => {
   const stats: statsProps[] = [
     {
       quantity: 2700,
-      description: "Products",
+      description: "Projects",
       showPlus: true
     },
     {
